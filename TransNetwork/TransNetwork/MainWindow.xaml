@@ -1,8 +1,8 @@
 ﻿<Window x:Class="TransNetwork.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
+        Title="TransNetwork" Height="350" Width="525">
     <Grid>
-        
+        <Button Content="OK" Height="33" HorizontalAlignment="Left" Margin="376,18,0,0" Name="btnOK" VerticalAlignment="Top" Width="105" Click="btnOK_Click" />
     </Grid>
 </Window>

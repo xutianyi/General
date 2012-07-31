@@ -23,5 +23,10 @@ namespace TransNetwork
         {
             InitializeComponent();
         }
+
+        private void btnOK_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("My first WPF Apps");
+        }
     }
 }
